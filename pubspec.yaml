@@ -1,5 +1,5 @@
 name: now_ui_flutter
-description: A new Flutter project.
+description: A free Flutter project coded by Creative Tim.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,7 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  scrollable_positioned_list: ^0.1.7
+  carousel_slider: ^2.2.1
+  url_launcher: ^5.5.2
+  font_awesome_flutter: ^8.8.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
