@@ -1,0 +1,1016 @@
+body{
+  overflow-x: hidden;
+}
+.navbar .navbar-nav .nav-item .nav-link:not(.btn-just-icon) .fa{
+  margin-right: 0;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  margin-right: 4px;
+}
+
+.imac{
+  position: absolute;
+  z-index: 1;
+  right: -200px;
+  width: 1050px;
+  top: -170px;
+}
+.page-header{
+    background: radial-gradient(#565656 0%, #080404 100%);
+    background-size: 150% 200%;
+}
+
+.page-header .figma-logo{
+  width: 30px;
+  height: 30px;
+}
+
+.brand h1{
+  font-weight: 700;
+}
+
+.page-header .creative-tim-logo{
+  width: 120px;
+}
+.page-header::before{
+  content:"";
+  display: block;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+}
+.page-header .container{
+  z-index: auto;
+}
+.page-header .container .col-lg-6:first-child{
+  z-index: 2;
+}
+p{
+  font-size: 16px;
+}
+
+.features-1 .col-md-6{
+  border: 1px solid hsla(0, 3%, 33%, .1);
+
+}
+
+.features-1 .col-md-6:first-child{
+  border-left: none;
+  border-top: none;
+
+}
+
+.features-1 .col-md-6:nth-child(2){
+  border-right: none;
+  border-top: none;
+
+}
+
+.features-1 .col-md-6:nth-child(3){
+  border-left: none;
+  border-bottom: none;
+
+}
+
+.features-1 .col-md-6:nth-child(4){
+  border-right: none;
+  border-bottom: none;
+
+}
+
+.section-content
+img{
+  height: auto !important;
+}
+
+.share-btn-img{
+  border-radius: 3px;
+}
+
+footer{
+  border-top: 1px solid #ddd;
+}
+
+.image-container-responsive{
+  width: 800px;
+  position: relative;
+}
+
+.image-container-responsive img{
+  width: 100%;
+  left: 100px;
+  margin-left: 100px;
+
+}
+
+.image-container-responsive .phone{
+  left: -200px;
+  width: 65%;
+  top: 100px;
+  position: absolute;
+}
+
+img.phone1{
+  position: absolute;
+  right: 13%;
+  width: 100%;
+  margin-top: -20px;
+  z-index: 3;
+}
+
+img.phone2{
+  position: absolute;
+  width: 80%;
+  right: -145px;
+  margin-top: -50px;
+  z-index: 2;
+}
+
+.shadow {
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.section-products{
+  z-index: 10;
+}
+
+.section-products img{
+  width: 100%;
+}
+
+.section-components .table-img{
+  box-shadow: none;
+  left: 15%;
+    top: 36%;
+    height: 175px;
+    border-radius: 2px;
+}
+
+.section-components .ecomm-2{
+  left: 3%;
+  top: 7%;
+  height: 100px;
+}
+.section-components .ecomm-3{
+  left: 70%;
+  top: 50%;
+  height: 250px;
+  border-radius: 2px;
+}
+
+.section-components .table-img, .section-components .ecomm-2, .section-components .coloured-card-btn-img, .section-components .ecomm-3, .section-components .social-img, .section-components .pin-btn-img {
+    position: absolute;
+}
+
+.section-examples img{
+  border-radius: 4px;
+  width: 100%;
+}
+
+.section-examples .card{
+  transition: all .2s cubic-bezier(.4,0,.2,1);
+}
+
+.section-examples .card:hover {
+  transform: translate3d(0,-10px,0);
+}
+
+.section-free-demo .icon-github{
+  font-size: 82px;
+  color: #777;
+  margin-top: 80px;
+}
+
+.section-free-demo h2.title{
+  margin-top: 15px;
+}
+
+.section-free-demo img{
+  width: 130%;
+}
+
+.our-clients{
+  margin-top: 70px;
+}
+
+.our-clients .card-featured-content img{
+  width:10%;
+  margin: 0 20px;
+}
+
+.section-pricing .card-margin{
+  margin-top: 80px;
+}
+
+.section-cards .image-container{
+  max-width: 1040px;
+  margin-top: -250px;
+  position: relative;
+}
+
+.section-cards .image-container img{
+  max-width: 1400px;
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+
+.section-components{
+  margin-top: -150px;
+}
+.section-components .components-phone{
+  left: 140px;
+  height: 95%;
+}
+
+/*pricing cards*/
+.card-pricing .card-header
+{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.card-pricing .list-unstyled li
+{
+    padding: .5rem 0;
+
+    color: #8898aa;
+}
+
+.card-pricing.popular
+{
+    z-index: 1;
+
+    border: 3px solid #5e72e4 !important;
+}
+
+.card-translucent {
+    background-color: rgba(18, 91, 152, 0.08);
+}
+
+.icon-xs {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.icon-shape.icon-xs i, .icon-shape.icon-xs svg {
+    font-size: .6rem;
+}
+
+@media(min-width: 992px){
+  .pl-lg-7, .px-lg-7 {
+    padding-left: 6rem!important;
+    padding-right: 6rem!important;
+
+  }
+}
+
+@media (max-width: 576px){
+  .section-cards .image-container img{
+    display: none;
+  }
+
+  .section-components .components-phone{
+    left: 100px !important;
+  }
+}
+@media (max-width:767px){
+  .features-1 .col-md-6:first-child{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+
+  }
+
+  .features-1 .col-md-6:nth-child(2){
+    border-right: none;
+    border-top: none;
+    border-left: none;
+
+  }
+
+  .features-1 .col-md-6:nth-child(3){
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+
+  }
+
+  .features-1 .col-md-6:nth-child(4){
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+  }
+
+  .table-img{
+    max-width: 190px;
+    max-height: 60px;
+  }
+
+
+  .section-components .image-container {
+    height: 300px;
+  }
+
+
+  .components-phone{
+    max-width: 400px;
+    max-height: 240px;
+    left: 0px;
+  }
+
+  .section-components .coloured-card-img {
+  left: 30%;
+  height: 60px;
+}
+
+.image-container-responsive{
+  width: auto;
+}
+
+  .image-container-responsive img:first-child{
+      width: 30%;
+      display: none;
+  }
+
+  .image-container-responsive .phone{
+    width: 85%;
+    position: relative;
+    margin-left: 30px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .section-content .image-container .area-img{
+    width: 100px;
+  }
+
+  .section-content .image-container .info-img{
+    width: 200px;
+  }
+
+  .imac{
+    display: none;
+  }
+}
+
+@media (min-width: 768px){
+  .card-pricing.zoom-in {
+      z-index: 1;
+      transform: scale(1.1);
+  }
+}
+
+@media (max-width:991px) and (min-width:768px){
+  .imac{
+    display: none;
+  }
+
+  .image-container-responsive{
+    width: auto;
+  }
+
+  .image-container-responsive img{
+      width: 60%;
+  }
+
+  .image-container-responsive .phone{
+    width: 40%;
+    left: -100px;
+  }
+
+  .section-components .coloured-card-img {
+  left: 60%;
+}
+
+.section-components .social-img {
+  left: 45%;
+}
+.components-phone{
+  max-width: 700px;
+  max-height: 440px;
+  left: 0px;
+}
+}
+
+@media (max-width:991px){
+  .brand{
+    text-align: center;
+  }
+
+  .section-description{
+    text-align: center;
+  }
+
+  .section-components{
+    text-align: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  img.phone1, img.phone2{
+    display: none;
+  }
+
+  .section-cards .image-container img{
+    max-width: 800px;
+  }
+
+  .section-cards .image-container {
+    margin-top: -120px;
+    margin-left: -800px;
+  }
+
+  .section-components .components-phone{
+    left: 200px;
+  }
+
+  .section-components .ecomm-3{
+    left: 50%;
+  }
+
+  .section-components .ecomm-2{
+    left: 13%;
+  }
+
+  .section-components .table-img{
+    left: 22%;
+  }
+
+  .section-free-demo{
+    text-align: center;
+  }
+
+  .section-free-demo img{
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .our-clients .card-featured-content img {
+    width: 10%;
+    margin: 15px 46px;
+  }
+
+  .navbar-collapse .nav-item:last-child{
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px){
+  .section-components .components-phone {
+    left: 170px;
+  }
+
+  .section-components .ecomm-2{
+    height: 70px;
+  }
+
+  .section-components .ecomm-3{
+    height: 120px;
+  }
+
+  .section-examples{
+    padding-top: 0;
+  }
+  .shadow{
+    margin-bottom: 40px;
+  }
+
+  .card-featured-content{
+    display: none;
+  }
+}
+
+/* --------------------------------
+
+Nucleo Outline Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+Created using IcoMoon - icomoon.io
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("../fonts/nucleo/nucleo-outline.eot");
+  src: url("../fonts/nucleo/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo/nucleo-outline.woff") format("woff"), url("../fonts/nucleo/nucleo-outline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+
+.now-ui-icons.circle {
+  padding: 0.33333333em;
+  vertical-align: -16%;
+  background-color: #eee;
+}
+
+.now-ui-icons.circle {
+  border-radius: 50%;
+}
+
+/*------------------------
+  list icons
+-------------------------*/
+
+.nc-icon-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+.nc-icon-ul>li {
+  position: relative;
+}
+
+.nc-icon-ul>li>.now-ui-icons {
+  position: absolute;
+  left: -1.57142857em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.nc-icon-ul>li>.now-ui-icons.circle {
+  top: -0.19047619em;
+  left: -1.9047619em;
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.now-ui-icons.spin {
+  -webkit-animation: nc-icon-spin 2s infinite linear;
+  -moz-animation: nc-icon-spin 2s infinite linear;
+  animation: nc-icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes nc-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+/*------------------------
+	font icons
+-------------------------*/
+
+.now-ui-icons.ui-1_check:before {
+  content: "\ea22";
+}
+
+.now-ui-icons.ui-1_email-85:before {
+  content: "\ea2a";
+}
+
+.now-ui-icons.arrows-1_cloud-download-93:before {
+  content: "\ea21";
+}
+
+.now-ui-icons.arrows-1_cloud-upload-94:before {
+  content: "\ea24";
+}
+
+.now-ui-icons.arrows-1_minimal-down:before {
+  content: "\ea39";
+}
+
+.now-ui-icons.arrows-1_minimal-left:before {
+  content: "\ea3a";
+}
+
+.now-ui-icons.arrows-1_minimal-right:before {
+  content: "\ea3b";
+}
+
+.now-ui-icons.arrows-1_minimal-up:before {
+  content: "\ea3c";
+}
+
+.now-ui-icons.arrows-1_refresh-69:before {
+  content: "\ea44";
+}
+
+.now-ui-icons.arrows-1_share-66:before {
+  content: "\ea4c";
+}
+
+.now-ui-icons.business_badge:before {
+  content: "\ea09";
+}
+
+.now-ui-icons.business_bank:before {
+  content: "\ea0a";
+}
+
+.now-ui-icons.business_briefcase-24:before {
+  content: "\ea13";
+}
+
+.now-ui-icons.business_bulb-63:before {
+  content: "\ea15";
+}
+
+.now-ui-icons.business_chart-bar-32:before {
+  content: "\ea1e";
+}
+
+.now-ui-icons.business_chart-pie-36:before {
+  content: "\ea1f";
+}
+
+.now-ui-icons.business_globe:before {
+  content: "\ea2f";
+}
+
+.now-ui-icons.business_money-coins:before {
+  content: "\ea40";
+}
+
+.now-ui-icons.clothes_tie-bow:before {
+  content: "\ea5b";
+}
+
+.now-ui-icons.design_vector:before {
+  content: "\ea61";
+}
+
+.now-ui-icons.design_app:before {
+  content: "\ea08";
+}
+
+.now-ui-icons.design_bullet-list-67:before {
+  content: "\ea14";
+}
+
+.now-ui-icons.design_image:before {
+  content: "\ea33";
+}
+
+.now-ui-icons.design_palette:before {
+  content: "\ea41";
+}
+
+.now-ui-icons.design_scissors:before {
+  content: "\ea4a";
+}
+
+.now-ui-icons.design-2_html5:before {
+  content: "\ea32";
+}
+
+.now-ui-icons.design-2_ruler-pencil:before {
+  content: "\ea48";
+}
+
+.now-ui-icons.emoticons_satisfied:before {
+  content: "\ea49";
+}
+
+.now-ui-icons.files_box:before {
+  content: "\ea12";
+}
+
+.now-ui-icons.files_paper:before {
+  content: "\ea43";
+}
+
+.now-ui-icons.files_single-copy-04:before {
+  content: "\ea52";
+}
+
+.now-ui-icons.health_ambulance:before {
+  content: "\ea07";
+}
+
+.now-ui-icons.loader_gear:before {
+  content: "\ea4e";
+}
+
+.now-ui-icons.loader_refresh:before {
+  content: "\ea44";
+}
+
+.now-ui-icons.location_bookmark:before {
+  content: "\ea10";
+}
+
+.now-ui-icons.location_compass-05:before {
+  content: "\ea25";
+}
+
+.now-ui-icons.location_map-big:before {
+  content: "\ea3d";
+}
+
+.now-ui-icons.location_pin:before {
+  content: "\ea47";
+}
+
+.now-ui-icons.location_world:before {
+  content: "\ea63";
+}
+
+.now-ui-icons.media-1_album:before {
+  content: "\ea02";
+}
+
+.now-ui-icons.media-1_button-pause:before {
+  content: "\ea16";
+}
+
+.now-ui-icons.media-1_button-play:before {
+  content: "\ea18";
+}
+
+.now-ui-icons.media-1_button-power:before {
+  content: "\ea19";
+}
+
+.now-ui-icons.media-1_camera-compact:before {
+  content: "\ea1c";
+}
+
+.now-ui-icons.media-2_note-03:before {
+  content: "\ea3f";
+}
+
+.now-ui-icons.media-2_sound-wave:before {
+  content: "\ea57";
+}
+
+.now-ui-icons.objects_diamond:before {
+  content: "\ea29";
+}
+
+.now-ui-icons.objects_globe:before {
+  content: "\ea2f";
+}
+
+.now-ui-icons.objects_key-25:before {
+  content: "\ea38";
+}
+
+.now-ui-icons.objects_planet:before {
+  content: "\ea46";
+}
+
+.now-ui-icons.objects_spaceship:before {
+  content: "\ea55";
+}
+
+.now-ui-icons.objects_support-17:before {
+  content: "\ea56";
+}
+
+.now-ui-icons.objects_umbrella-13:before {
+  content: "\ea5f";
+}
+
+.now-ui-icons.education_agenda-bookmark:before {
+  content: "\ea01";
+}
+
+.now-ui-icons.education_atom:before {
+  content: "\ea0c";
+}
+
+.now-ui-icons.education_glasses:before {
+  content: "\ea2d";
+}
+
+.now-ui-icons.education_hat:before {
+  content: "\ea30";
+}
+
+.now-ui-icons.education_paper:before {
+  content: "\ea42";
+}
+
+.now-ui-icons.shopping_bag-16:before {
+  content: "\ea0d";
+}
+
+.now-ui-icons.shopping_basket:before {
+  content: "\ea0b";
+}
+
+.now-ui-icons.shopping_box:before {
+  content: "\ea11";
+}
+
+.now-ui-icons.shopping_cart-simple:before {
+  content: "\ea1d";
+}
+
+.now-ui-icons.shopping_credit-card:before {
+  content: "\ea28";
+}
+
+.now-ui-icons.shopping_delivery-fast:before {
+  content: "\ea27";
+}
+
+.now-ui-icons.shopping_shop:before {
+  content: "\ea50";
+}
+
+.now-ui-icons.shopping_tag-content:before {
+  content: "\ea59";
+}
+
+.now-ui-icons.sport_trophy:before {
+  content: "\ea5d";
+}
+
+.now-ui-icons.sport_user-run:before {
+  content: "\ea60";
+}
+
+.now-ui-icons.tech_controller-modern:before {
+  content: "\ea26";
+}
+
+.now-ui-icons.tech_headphones:before {
+  content: "\ea31";
+}
+
+.now-ui-icons.tech_laptop:before {
+  content: "\ea36";
+}
+
+.now-ui-icons.tech_mobile:before {
+  content: "\ea3e";
+}
+
+.now-ui-icons.tech_tablet:before {
+  content: "\ea58";
+}
+
+.now-ui-icons.tech_tv:before {
+  content: "\ea5e";
+}
+
+.now-ui-icons.tech_watch-time:before {
+  content: "\ea62";
+}
+
+.now-ui-icons.text_align-center:before {
+  content: "\ea05";
+}
+
+.now-ui-icons.text_align-left:before {
+  content: "\ea06";
+}
+
+.now-ui-icons.text_bold:before {
+  content: "\ea0e";
+}
+
+.now-ui-icons.text_caps-small:before {
+  content: "\ea1b";
+}
+
+.now-ui-icons.gestures_tap-01:before {
+  content: "\ea5a";
+}
+
+.now-ui-icons.transportation_air-baloon:before {
+  content: "\ea03";
+}
+
+.now-ui-icons.transportation_bus-front-12:before {
+  content: "\ea17";
+}
+
+.now-ui-icons.travel_info:before {
+  content: "\ea04";
+}
+
+.now-ui-icons.travel_istanbul:before {
+  content: "\ea34";
+}
+
+.now-ui-icons.ui-1_bell-53:before {
+  content: "\ea0f";
+}
+
+.now-ui-icons.ui-1_calendar-60:before {
+  content: "\ea1a";
+}
+
+.now-ui-icons.ui-1_lock-circle-open:before {
+  content: "\ea35";
+}
+
+.now-ui-icons.ui-1_send:before {
+  content: "\ea4d";
+}
+
+.now-ui-icons.ui-1_settings-gear-63:before {
+  content: "\ea4e";
+}
+
+.now-ui-icons.ui-1_simple-add:before {
+  content: "\ea4f";
+}
+
+.now-ui-icons.ui-1_simple-delete:before {
+  content: "\ea54";
+}
+
+.now-ui-icons.ui-1_simple-remove:before {
+  content: "\ea53";
+}
+
+.now-ui-icons.ui-1_zoom-bold:before {
+  content: "\ea64";
+}
+
+.now-ui-icons.ui-2_chat-round:before {
+  content: "\ea20";
+}
+
+.now-ui-icons.ui-2_favourite-28:before {
+  content: "\ea2b";
+}
+
+.now-ui-icons.ui-2_like:before {
+  content: "\ea37";
+}
+
+.now-ui-icons.ui-2_settings-90:before {
+  content: "\ea4b";
+}
+
+.now-ui-icons.ui-2_time-alarm:before {
+  content: "\ea5c";
+}
+
+.now-ui-icons.users_circle-08:before {
+  content: "\ea23";
+}
+
+.now-ui-icons.users_single-02:before {
+  content: "\ea51";
+}
