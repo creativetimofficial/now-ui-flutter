@@ -65,14 +65,7 @@ class Home extends StatelessWidget {
                       title: homeCards["Ice Cream"]['title'],
                       img: homeCards["Ice Cream"]['image'],
                       tap: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => Product(
-                        //         title: homeCards["Ice Cream"]['title'],
-                        //         urlImg: homeCards["Ice Cream"]['image'],
-                        //       ),
-                        //     ));
+                        Navigator.pushNamed(context, '/pro');
                       }),
                 ),
                 SizedBox(height: 8.0),
@@ -83,29 +76,13 @@ class Home extends StatelessWidget {
                         cta: "View article",
                         title: homeCards["Makeup"]['title'],
                         img: homeCards["Makeup"]['image'],
-                        tap: () {
-                          // Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //       builder: (context) => Product(
-                          //         title: homeCards["Makeup"]['title'],
-                          //         urlImg: homeCards["Makeup"]['image'],
-                          //       ),
-                          //     ));
-                        }),
+                        tap: () {}),
                     CardSmall(
                         cta: "View article",
                         title: homeCards["Coffee"]['title'],
                         img: homeCards["Coffee"]['image'],
                         tap: () {
-                          // Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //       builder: (context) => Product(
-                          //         title: homeCards["Coffee"]['title'],
-                          //         urlImg: homeCards["Coffee"]['image'],
-                          //       ),
-                          //     ));
+                          Navigator.pushNamed(context, '/pro');
                         })
                   ],
                 ),
@@ -115,14 +92,7 @@ class Home extends StatelessWidget {
                     title: homeCards["Fashion"]['title'],
                     img: homeCards["Fashion"]['image'],
                     tap: () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) => Product(
-                      //         title: homeCards["Fashion"]['title'],
-                      //         urlImg: homeCards["Fashion"]['image'],
-                      //       ),
-                      //     ));
+                      Navigator.pushNamed(context, '/pro');
                     }),
                 SizedBox(height: 8.0),
                 Padding(
@@ -132,14 +102,7 @@ class Home extends StatelessWidget {
                       title: homeCards["Argon"]['title'],
                       img: homeCards["Argon"]['image'],
                       tap: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => Product(
-                        //         title: homeCards["Argon"]['title'],
-                        //         urlImg: homeCards["Argon"]['image'],
-                        //       ),
-                        //     ));
+                        Navigator.pushNamed(context, '/pro');
                       }),
                 )
               ],

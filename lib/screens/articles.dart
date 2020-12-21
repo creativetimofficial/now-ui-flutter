@@ -119,14 +119,7 @@ class Articles extends StatelessWidget {
                         title: articlesCards["Ice Cream"]['title'],
                         img: articlesCards["Ice Cream"]['image'],
                         tap: () {
-                          // Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //       builder: (context) => Product(
-                          //         title: articlesCards["Ice Cream"]['title'],
-                          //         urlImg: articlesCards["Ice Cream"]['image'],
-                          //       ),
-                          //     ));
+                          Navigator.pushNamed(context, '/pro');
                         }),
                   ),
                   SizedBox(height: 8.0),
@@ -137,28 +130,14 @@ class Articles extends StatelessWidget {
                           title: articlesCards["Makeup"]['title'],
                           img: articlesCards["Makeup"]['image'],
                           tap: () {
-                            // Navigator.push(
-                            //     context,
-                            //     MaterialPageRoute(
-                            //       builder: (context) => Product(
-                            //         title: articlesCards["Makeup"]['title'],
-                            //         urlImg: articlesCards["Makeup"]['image'],
-                            //       ),
-                            //     ));
+                            Navigator.pushNamed(context, '/pro');
                           }),
                       CardSmall(
                           cta: "View article",
                           title: articlesCards["Coffee"]['title'],
                           img: articlesCards["Coffee"]['image'],
                           tap: () {
-                            // Navigator.push(
-                            //     context,
-                            //     MaterialPageRoute(
-                            //       builder: (context) => Product(
-                            //         title: articlesCards["Coffee"]['title'],
-                            //         urlImg: articlesCards["Coffee"]['image'],
-                            //       ),
-                            //     ));
+                            Navigator.pushNamed(context, '/pro');
                           })
                     ],
                   ),
@@ -168,14 +147,7 @@ class Articles extends StatelessWidget {
                       title: articlesCards["Fashion"]['title'],
                       img: articlesCards["Fashion"]['image'],
                       tap: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => Product(
-                        //         title: articlesCards["Fashion"]['title'],
-                        //         urlImg: articlesCards["Fashion"]['image'],
-                        //       ),
-                        //     ));
+                        Navigator.pushNamed(context, '/pro');
                       }),
                   SizedBox(height: 8.0),
                   CardSquare(
@@ -183,26 +155,11 @@ class Articles extends StatelessWidget {
                       title: articlesCards["Argon"]['title'],
                       img: articlesCards["Argon"]['image'],
                       tap: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => Product(
-                        //         title: articlesCards["Argon"]['title'],
-                        //         urlImg: articlesCards["Argon"]['image'],
-                        //       ),
-                        //     ));
+                        Navigator.pushNamed(context, '/pro');
                       }),
                   CardCategory(
                       tap: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => Category(
-                        //           screenTitle: articlesCards["Music"]["title"],
-                        //           suggestionsArray: articlesCards["Music"]
-                        //               ["suggestions"],
-                        //           imgArray: articlesCards["Music"]["products"]),
-                        //     ));
+                        Navigator.pushNamed(context, '/pro');
                       },
                       title: articlesCards["Music"]["title"],
                       img: articlesCards["Music"]["image"]),
