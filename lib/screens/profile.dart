@@ -184,16 +184,18 @@ class Profile extends StatelessWidget {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 8.0),
-                      child: RaisedButton(
-                        textColor: NowUIColors.white,
-                        color: NowUIColors.info,
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          primary: NowUIColors.info, // background
+                          onPrimary: NowUIColors.white, // foreground
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(4.0),
+                          ),
+                        ),
                         onPressed: () {
                           // Respond to button press
                           Navigator.pushReplacementNamed(context, '/home');
                         },
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(32.0),
-                        ),
                         child: Padding(
                             padding: EdgeInsets.only(
                                 left: 12.0, right: 12.0, top: 10, bottom: 10),

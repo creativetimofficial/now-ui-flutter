@@ -172,18 +172,22 @@ class _RegisterState extends State<Register> {
                                     ],
                                   ),
                                   Center(
-                                    child: RaisedButton(
-                                      textColor: NowUIColors.white,
-                                      color: NowUIColors.primary,
+                                    child: ElevatedButton(
+                                      style: ElevatedButton.styleFrom(
+                                        primary:
+                                            NowUIColors.primary, // background
+                                        onPrimary:
+                                            NowUIColors.white, // foreground
+                                        shape: RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(32.0),
+                                        ),
+                                      ),
                                       onPressed: () {
                                         // Respond to button press
                                         Navigator.pushReplacementNamed(
                                             context, '/home');
                                       },
-                                      shape: RoundedRectangleBorder(
-                                        borderRadius:
-                                            BorderRadius.circular(32.0),
-                                      ),
                                       child: Padding(
                                           padding: EdgeInsets.only(
                                               left: 32.0,
